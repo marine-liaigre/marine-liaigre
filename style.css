@@ -1,0 +1,112 @@
+/*colors and fronts*/
+
+body{
+background-color:#d3d2c7;
+color:#16302b;
+font-family : 'Style Script', cursif ;
+font-size:15px;
+line-height:0,5;
+letter-spacing:0,8px ;
+font-weight:lighter;
+}
+
+h1,h2{
+color:#4d243d;
+famille de polices : 'Amatic SC', cursive ;
+font-weight:bold;
+}
+
+p {
+text-align:justify;
+padding: 20px;
+}
+
+h1 {
+font-size:35px;
+line-height:2;
+letter-spacing:0,8;
+text-align:center;
+}
+
+
+
+h2 {	
+font-size:25px;
+line-height:1;
+letter-spacing:1px ;
+text-align:center;
+}
+
+a {
+color:black;
+text-decoration:none;
+font-weight: bold;
+color: #f7d4bc;
+padding: 5px 5px;
+transition: white; 
+}
+
+ul{
+list-style:none;
+}
+
+li{
+padding: 10px;
+border-radius: 8%;
+font-size:20px;
+text-align: center;
+}
+
+
+
+/*Custum design with class*/
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: auto;
+width: 700px;
+background-color:#f7d4bc;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background: white;
+border: 2px sold black;
+margin: 10px auto;
+padding: 30px;
+width: 60%;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.photo{
+border-radius: 50%;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+margin: auto;
+width: 250px;
+padding: 1px;
+}
+
+.info{
+background: #d3d2c7;
+color: black;
+font-weight: bold;
+padding: 10px;
+border-radius: 8%;
+text-decoration: none;
+text-align:center;
+}
+
+.fab {
+	font-size: 25px;
+
+}
+
+.fab:hover {
+	font-size: 30px;
+
+}
